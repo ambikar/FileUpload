@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" preserve-order="true" parallel="classes"
+	thread-count="1">
+	<test name="test">
+		<classes>
+			<class name="rescale.fileupload.LoginPageTest">
+				<methods>
+					<include name="loadUrl" />
+					<include name="login" />
+					</methods>
+			</class>
+			<class name="rescale.fileupload.FileUploadTest">
+				<methods>
+					<include name="clickFileUpload" />
+					<include name ="testFileUploaded" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

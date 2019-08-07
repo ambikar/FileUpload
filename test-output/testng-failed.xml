@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="classes" name="test(failed)">
+    <classes>
+      <class name="rescale.fileupload.FileUploadTest">
+        <methods>
+          <include name="testFileUploaded"/>
+          <include name="setUp"/>
+          <include name="clickFileUpload" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- rescale.fileupload.FileUploadTest -->
+      <class name="rescale.fileupload.LoginPageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="loadUrl"/>
+          <include name="setUp"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- rescale.fileupload.LoginPageTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [suite] -->
