@@ -25,6 +25,11 @@ This class tests the FileUpload in the Rescale Platform- Files page.
   - testFileUploaded - Once the file is uploaded, this method asserts that the file name that is uploaded matches with the actual file that is in the Files tab. If the file name mismatches, this test fails throwing error. 
   
   
+  ## To run the test framework:
+  1. Clone the repository locally
+  2. Import the code in your favorite IDE as a maven project
+  3. Right click on testng.xml -> Run As -> TestNG Suite
+   
   ## Other testcases
   **Functional Test cases**
   1. Upload different types of file (eg., pdf, zip etc)
